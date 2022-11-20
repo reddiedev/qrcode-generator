@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <div className="w-full h-16 flex  bg-neutral-900 text-white items-center justify-start px-20 border-b-2 border-gray-600">
+        <div className="w-full h-16 flex  bg-neutral-900 text-white items-center md:justify-start md:px-20 justify-center  border-b-2 border-gray-600">
             <Link to="/" className="flex justify-center gap-x-2 items-stretch">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
