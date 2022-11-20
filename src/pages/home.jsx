@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 
 export default function Home() {
-    const [code, setCode] = useState("Hello world!");
+    const [code, setCode] = useState("Hello World!");
     const {
         register,
         handleSubmit,
