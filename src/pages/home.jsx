@@ -1,4 +1,4 @@
-import Base from "../layouts.jsx/base";
+import Base from "../layouts/base";
 import QRCode from "react-qr-code";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
