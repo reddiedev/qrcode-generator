@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Error from "./pages/error";
+import Error from "./pages/404";
 import Home from "./pages/home";
 
 export default function App() {
