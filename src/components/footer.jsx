@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
-        <div className="w-full h-16 flex  bg-neutral-900 text-white items-center justify-center px-20 border-t-2 border-gray-600">
-            <Link to="/" className="flex justify-center gap-x-2 items-stretch">
+        <div className="w-full h-16 grid grid-cols-3  bg-neutral-900 text-white items-center justify-center px-20 border-t-2 border-gray-600">
+            <Link to="/" className="flex justify-center gap-x-2 items-stretch col-start-2">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -16,6 +16,12 @@ export default function Footer() {
                 </svg>
                 <span className="font-bold font-sans">QR Code Generator</span>
             </Link>
+            <div className="flex justify-end">
+                Powered by{" "}
+                <Link to="www.reddie.dev" className="text-red-600">
+                    @reddiedev
+                </Link>
+            </div>
         </div>
     );
 }
