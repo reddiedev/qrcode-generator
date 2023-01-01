@@ -16,11 +16,11 @@ export default function Footer() {
                 </svg>
                 <span className="font-bold font-sans">QR Code Generator</span>
             </Link>
-            <div className="flex justify-end">
+            <div className="flex justify-end gap-x-1">
                 Powered by{" "}
-                <Link to="www.reddie.dev" className="text-red-600">
+                <a href="https://www.reddie.dev" className="text-red-600">
                     @reddiedev
-                </Link>
+                </a>
             </div>
         </div>
     );
