@@ -3,10 +3,6 @@
         {
             "source": "/(.*)",
             "destination": "/"
-        },
-        {
-            "source": "/stats/:match*",
-            "destination": "https://analytics.reddie.dev/:match*"
         }
     ]
 }
