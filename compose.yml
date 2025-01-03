@@ -1,0 +1,10 @@
+services:
+  qr-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app
+    restart: always 
+    ports:
+      - "3004:3000"
+    image: qr-generator
